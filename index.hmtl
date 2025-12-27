@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background: #0a58ca;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        button {
+            background: #0a58ca;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background: #084298;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Company Name</h1>
+    <p>Your tagline goes here</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        We are a professional company providing high-quality services to our clients.
+        Our goal is to deliver reliable and innovative solutions.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Web Development</li>
+        <li>Mobile Applications</li>
+        <li>Cloud Solutions</li>
+        <li>IT Consulting</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@companyname.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <button>Get in Touch</button>
+</section>
+
+<footer>
+    <p>© 2025 Company Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
