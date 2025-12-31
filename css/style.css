@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+/************** Header *************************/
+#Header .social a {width:30px; height:30px; line-height:30px; border:1px solid #585858;}
+#Header .social a:hover {border:1px solid #1c256d; background-color:#1c256d;}
+#Header .top-bar a {font-weight:400; text-decoration:underline!important;}
+#Header .top-bar a:hover {text-decoration:none!important;}
+#Header .fs { font-size:15px;}
+#Header .list-inline-item:not(:last-child) {margin-right: .1rem;}
+#Header .top-bar { font-size:16px;}
+#Header .social .list-inline-item:not(:last-child) {margin-right: .1rem;}
+/********** Main Banner **************************************************************************************************/
+.MainBanner h1 { letter-spacing: 0; font-size:35px; line-height:40px;}
+.MainBanner h1 small{ font-size:18px;line-height:30px;}
+.MainBanner p { font-size:16px;}
+
+/********** Tab **************************************************************************************************/
+.bg1 { background-image:url(../images/main-bnr.jpg); background-attachment:fixed; background-repeat:no-repeat; background-size:cover; width:100%; height:100%; position:relative; background-position:left center;}
+.bg2 { background-image:url(../images/bg2.jpg); background-attachment:fixed; background-repeat:no-repeat; background-size:cover; width:100%; height:100%; position:relative;}
+.bg1:before {background-color:rgba(0,0,0,0.5); position:absolute; top:0; left:0; width:100%; height:100%; z-index:2; content:"";}
+.bg2:before {background-color:rgba(0,0,0,0.5); position:absolute; top:0; left:0; width:100%; height:100%; z-index:2; content:"";}
+.bg-img1 {background-image:url(../images/work2.jpg); background-repeat:no-repeat; width:100%; height:100px; background-position:left center;}
+.bg-img1:before {background-color:rgba(0,0,0,0.2); position:absolute; top:0; left:0; width:100%; height:100%; z-index:2; content:"";}
+.bg-img1 * { position:relative; z-index:5;}
+.bg-img2 {background-image:url(../images/work4.jpg); background-repeat:no-repeat; width:100%; height:100px; background-position:left center;}
+.bg-img2:before {background-color:rgba(0,0,0,0.2); position:absolute; top:0; left:0; width:100%; height:100%; z-index:2; content:"";}
+.bg-img2 * { position:relative; z-index:5;}
+.bg-img3 {background-image:url(../images/work3.jpg); background-repeat:no-repeat; width:100%; height:100px; background-position:left center;}
+.bg-img3:before {background-color:rgba(0,0,0,0.2); position:absolute; top:0; left:0; width:100%; height:100%; z-index:2; content:"";}
+.bg-img3 * { position:relative; z-index:5;}
+.bg-img4 {background-image:url(../images/work6.jpg); background-repeat:no-repeat; width:100%; height:100px; background-position:left center;}
+.bg-img4:before {background-color:rgba(0,0,0,0.2); position:absolute; top:0; left:0; width:100%; height:100%; z-index:2; content:"";}
+.bg-img4 * { position:relative; z-index:5;}
+.align-ctr { position:relative; top:50%; transform:translateY(-50%); z-index:5;}
+.align-ctr2 { position:relative; top:50%; transform:translateY(-50%); z-index:5;}
+.cus-height {height:100vh; width:70%;}
+.img-fit { height:100%; width: 100%; -o-object-fit: cover; object-fit: cover; -o-object-position: center; object-position: center;}
+.inner-sec { position:relative; z-index:5;}
+.abt-img {background-image:url(../images/abt.jpg); background-repeat:no-repeat; background-size:cover; width:100%; height:100%; background-position:left top;}
+.about .btn-outline-dark {font-size:20px; line-height:25px;}
+.about .btn-outline-dark:hover,.btn-outline-dark:focus { background:#131c65 !important; color: #fff !important; box-shadow: none;}
+.about .clr {color: #131c65;}
+.about .btn-outline-dark:hover .clr,.btn-outline-dark:focus .clr {color: #fff; }
+.contact h2 {font-size:22px;}
+.contact p {font-size:18px;}
+.work h4 {font-size:18px;}
+.work h4 small {font-size:16px;}
+.products h4 {font-size:18px;}
+.welcome h2 small { font-size:20px;}
+
+.accordion .accordion-item a[aria-expanded="true"] {background-color:#131c65 !important; color:#fff !important;}
+.accordion .accordion-item a[aria-expanded="true"] .clr {color: #fff!important;}
+
+.privacy h2 {font-size:20px;}
+.privacy h3 {font-size:18px;}
+.privacy h4 {font-size:15px;}
+
+/********** Footer ***************************************************************************************************/
+#Footer h4 { font-size:14px;}
+#Footer h4:after { content:""; position:relative; left:0; width:20%; height:2px; background:#1c256d; margin:15px 0 25px 0; display:table;}
+#Footer .social a {width:30px; height:30px; line-height:35px;}
+#Footer p {font-size:13px; font-weight:400; line-height:22px;}
+#Footer a {color:#000; font-size:13px; font-weight:400; text-decoration:underline!important;}
+#Footer a:hover {text-decoration:none!important;}
+#Footer .fs { font-size:18px;}
+.list-inline-item:not(:last-child) {margin-right: .1rem;}
+.copyright p { font-size:13px!important;}
+/***************************/
+/* Large devices (desktops, 992px and up) */
+@media (min-width:992px) {
+header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s; z-index: 10;}
+header  {position:relative !important; }
+.shrink {position:fixed !important;}
+.shrink {box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:999;}
+.navbar-brand img {max-height:30px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .navbar-brand img {max-height:25px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.navbar-brand{padding:10px 0px !important;}
+.shrink .navbar-brand{padding:0px 0px !important;}
+.shrink .top-bar {display:none!important;}
+}
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+.gutter-lg {margin-left:-35px!important;margin-right:-35px!important;}
+.gutter-lg div[class^="col"]{padding-left:35px!important;padding-right:35px!important;}
+.gutter-lg .row,.gutter-lg .row div{padding:0px!important;margin:0px!important;}
+}
+@media (min-width: 1920px) {
+.container { max-width:1170px!important;}
+}
+@media (min-width: 1600px) { }
+@media (max-width: 1600px){
+}
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {
+.navbar-brand img {max-height:30px;}
+.shrink .navbar-brand img {max-height:25px}
+.cus-wdth { width:100% !important;}	
+#Header { position:relative !important;}
+.MainBanner .carousel-caption h1 { font-size:50px; line-height:50px;}
+.navbar-nav>li+li {margin-left:30px;}
+}
+/*@include media-breakpoint-between(md, xl) { ... }*/
+@media (min-width: 768px) and (max-width: 1199.98px) {
+#Header { position:relative !important;}
+.MainBanner .carousel-caption h1 { font-size:55px; line-height:60px;}
+.MainBanner .carousel-caption{ width: 100%;} 
+.navbar-brand img {max-height:30px;}
+.shrink .navbar-brand img {max-height:25px}
+.cus-wdth { width:100% !important;}
+.navbar .navbar-nav .nav-link {font-size:15px;}
+.navbar-nav>li+li {margin-left:20px;}
+h1, .h1 {font-size: 35px;}
+.testimonials p {font-size: 18px;}
+.cus-wdth { width:100% !important;}	
+.cus-height {height: 30vh; width: 100%;}
+.align-ctr { position:relative; top:50%; transform:translateY(-50%); z-index:5;}
+}
+/*For example the @include media-breakpoint-only(md) { ... } will result in :*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+#Header { position:relative !important;}
+#Header .container { max-width:100%;}
+.navbar-brand img {max-height:30px;}
+.navbar-nav>li+li {margin-left:18px;}
+.navbar .navbar-nav .nav-link {font-size: 13px;}
+.cus-wdth { width:100% !important;}
+
+#Footer .links li {margin-left: 30px;}
+.cus-height {height: 100%; width: 100%;}
+h2, .h2 { font-size: 20px;}
+
+.bg1 {height: 100%;}
+.bg2 {height: 100%;}
+.align-ctr { position:relative; top:0; transform:translateY(0); z-index:5; padding:50px 0;}
+
+.bg1 {height: 100%; background-attachment:normal;}
+.bg2 {height: 100%; background-attachment:normal;}
+}
+@media (min-width: 991.98px) {
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width:767.98px) {
+.container{max-width:100%;}
+#Header { position:relative !important;}
+.MainBanner .carousel-caption h1 { font-size:50px; line-height:50px;}
+.navbar-brand img {max-height:30px;}
+
+.cus-wdth { width:100% !important;}
+	h2, .h2 {font-size: 30px;}
+	h3, .h3 {font-size: 25px;}
+	
+#Footer .links li {margin-left: 0;}
+.cus-height {height: 100%; width: 100%;}	
+.MainBanner h1 {font-size: 30px;}	
+h2, .h2 { font-size: 20px;}
+.bg1 {height: 100%;}
+.bg2 {height: 100%;}
+.align-ctr { position:relative; top:0; transform:translateY(0); z-index:5; padding:100px 0;}
+
+.bg1 {height: 100%; background-attachment:normal;}
+.bg2 {height: 100%; background-attachment:normal;}
+}
+@media (max-width:768px) {
+#Header { position:relative !important;}
+.MainBanner .carousel-caption h1 { font-size:50px; line-height:50px;}
+#Header .container { max-width:100%;}
+.MainBanner h1 {font-size: 30px;}
+h2, .h2 { font-size: 20px;}
+.bg1 {height: 100%;}
+.bg2 {height: 100%;}
+.align-ctr { position:relative; top:0; transform:translateY(0); z-index:5; padding:50px 0;}
+.bg1 {height: 100%; background-attachment:normal;}
+.bg2 {height: 100%; background-attachment:normal;}
+.cus-height {height: 100%; width: 100%;}
+}
+@media (max-width:575.98px) {
+body {font-size:13px;}
+.MainBanner .carousel-item  img {
+    height:700px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+.bg1 {height: 100%; background-attachment:normal;}
+.bg2 {height: 100%; background-attachment:normal;}
+.btn { width:100%;}
+#Footer .links li {margin-left: 0;}
+h2, .h2 { font-size: 20px;}
+.cus-height {height: 100%; width: 100%;}
+.MainBanner h1 {font-size: 20px;}
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 15px;}
+.align-ctr { position:relative; top:0; transform:translateY(0); z-index:5; padding:20px 0;}
+.navbar-brand img {max-height:30px;}
+}
+/* X-Small devices (portrait phones, less than 576px) */
